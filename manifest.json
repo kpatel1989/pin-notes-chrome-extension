@@ -1,0 +1,20 @@
+{
+    "name": "Pin notes",
+    "description": "This apps helps user to pin important notes directly to the pin board.",
+    "version": "0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "pin.png",
+        "default_popup": "popup.html",
+        "default_title": "Pin notes!"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "permissions": ["activeTab", "contextMenus"],
+    "icons": {
+        "16": "pin.png",
+        "128": "pin.png"
+    }
+}
